@@ -1,0 +1,85 @@
+
+
+body{
+    background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm373batch15-bg-11.jpg?w=1200&h=1200&dpr=1&fit=clip&crop=default&fm=jpg&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=330dde5a4191a3d87204a2f9b040e3fe");
+    background-size: cover;
+}
+form{
+    margin: 10px;
+    
+}
+.set{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.head{
+    color: aqua;
+    text-align: center;
+    font-size: 30PX;
+}
+input{
+    border-radius: 10px;
+    padding: 10px;
+    width: 25vw;
+    box-shadow: 7px 7px 3px rebeccapurple;
+}
+.add{
+    font-size: 30px;
+    color: rgb(184, 199, 191);
+    text-align: center;
+}
+label{
+    color: white;
+    font-size: 18px;
+}
+.rate{
+    width: 10px;
+    margin: 10px;
+    margin-left: 20px;
+    box-shadow: 0px 0px 0px;
+}
+.formerror{
+    color: white;
+    font-size: 18px;
+}
+.personalinfo{
+    border-width: 2px;
+    border-style: solid;
+    border-color: darkgray;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    width: 40vw;
+    margin-left: 26vw;
+}
+.box{
+    width: 15px;
+    box-shadow: none;
+
+}
+.button{
+    border-radius: 10px;
+    border-width: 0px;
+    height: 30px;
+    width: 80px;
+    box-shadow: 5px 5px 3px rebeccapurple;
+}
+.centre{
+    text-align:center;
+}
+@media screen and (max-width:600px) {
+      .head{
+          font-size: 25px;
+      }
+      .add{
+        font-size:20px ;
+      }
+      .personalinfo{
+        margin-left: 20px;
+        width: 80%;
+      }
+      input{
+        width: 70%;
+      }
+}

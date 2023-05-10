@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FORM</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+            <form name="myForm" onsubmit="return validateForm()"  >
+                <div class="personalinfo">
+                    <label class="add">Personal Information</label><br><br>
+                    <div  id="f_name">
+                       <label>First Name: <b><span class="formerror"> </span></b> </label><br>
+                       <input  type="text" name="first_name" size="30" placeholder="First Name*">
+                        <br><br>
+                    </div>
+                    <div id="l_name">
+                    <label>Last name: <b><span class="formerror"> </span></b></label><br>
+                    <input type="text" name="last_name" size="30" placeholder="Last name*"><b><span class="formerror"></span></b>
+                    <br><br></div>
+                    <div id="number">
+                    <label >Phone Number: <b><span class="formerror"> </span></b></label><br>
+                    <input  type="number" name="contact_number" size="30" maxlength="10" placeholder="Phone Number*" >
+                    <br><br></div>
+                </div>
+                <div class="personalinfo">
+                    <label class="add">Addtional info</label><br><br>
+                    <div id="ail">
+                    <label >Email: <b><span class="formerror"> </span></b></label><br>
+                    <input  type="email" name="mail" size="30" placeholder="Email*">
+                    <br><br></div>
+                    <div id="pass">
+                    <label >Password: <b><span class="formerror"> </span></b></label><br>
+                    <input type="password" name="pass" size="30" placeholder="Password*">
+                    <br><br></div>
+                    <div id="checkbox">
+                    <input  type="checkbox" name="terms" class="box">
+                    <label for="terms"> I agree to the Terms and Conditions.
+                        <br><b><span class="formerror"> </span></b>
+                    </label></div>
+                </div>
+                
+                <div class="centre">
+                  <input  type="submit" class="button" value="Submit">
+                </div>
+             </form>
+             <script src="script.js"></script>
+    </body>
+</html>
